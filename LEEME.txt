@@ -1,0 +1,19 @@
+# Deambulante Café POS — versión inicial
+
+## Qué incluye
+- Caja con carrito, cantidades y cobro por efectivo, transferencia o tarjeta.
+- Registro de gastos por categoría.
+- Resumen diario: ventas, gastos, costo de producto, ganancia estimada y formas de pago.
+- Inventario de insumos con entradas/salidas manuales y alerta de existencia baja.
+- Historial, exportación CSV, respaldo y restauración JSON.
+- Guardado local en el navegador; diseño adaptable a celular y computadora.
+
+## Cómo abrir
+Abre `index.html` en un navegador moderno. Los datos se guardan en ese navegador/dispositivo. Para instalarla como app y habilitar mejor el modo sin conexión, publícala en un hosting HTTPS o sírvela desde un servidor local; después abre la web en el navegador y usa “Añadir a pantalla de inicio”/“Instalar aplicación”.
+
+## Importante
+- Esta versión NO sincroniza automáticamente entre celular y computadora: cada dispositivo tiene su propio almacenamiento. Transfiere el archivo de respaldo JSON para mover los datos.
+- No procesa pagos bancarios ni cobra tarjetas; solo registra el método de pago.
+- Las ventas no descuentan insumos automáticamente, porque hace falta definir recetas/consumo por producto.
+- La ganancia es una estimación. Registra el costo unitario de cada producto y todos los gastos para mejorarla.
+- Haz respaldos frecuentes. Borrar los datos del navegador puede borrar el registro local.
